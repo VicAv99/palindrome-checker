@@ -1,0 +1,36 @@
+.balloon {
+  width: 85%;
+  margin-bottom: 60px !important;
+}
+
+.bcrikko {
+  align-self: flex-end;
+  margin-bottom: 10px;
+}
+
+.center {
+  grid-column: 2/5;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.message-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pal-button {
+  margin-top: 8px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  padding-top: 20%;
+}
