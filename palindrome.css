@@ -32,5 +32,5 @@
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
-  padding-top: 20%;
+  padding-top: 10%;
 }
